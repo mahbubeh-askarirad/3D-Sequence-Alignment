@@ -21,22 +21,23 @@ To build the program, you will need a C compiler (such as GCC).
 
 **Compile using:**
 ```bash
-gcc Readsequences.c dynamic_programming.c mmMatrix.c write_sequence.c Alignment_scoring_matrix.c  Triple.c -o Triple
-
+gcc Readsequences.c dynamic_programming.c mmMatrix.c write_sequence.c Alignment_scoring_matrix.c Triple.c -o Triple
+```
 ### 2. Prepare Input
 Prepare a file named input in the project directory, containing your protein sequences in FASTA format. Example:
-
+```objective
 >seq1
 MKTAYIAKQRQISFVKSHFSRQDILDLWQ
 >seq2
 MKTAYIAKQ-KISFVKSHFSNQDILD--Q
 >seq3
 MKLAYIAKQRQISFVKSHFSNQDILD--Q
-
+```
 ### 3. Run the Program
 Run the executable:
-
-./align3d
+```bash
+./Triple
+```
 The program will prompt you for:
 
 Gap opening penalty (GO)
@@ -45,9 +46,8 @@ Scoring matrix choice (0: BLOSUM62, 1: BLOSUM30, 2: BLOSUM90)
 ### 4. Output
 The aligned sequences and alignment scores will be written to alignment_output.txt.
 A gapless version of the sequences will be written to a file named gapless.
-
 File Structure
-
+```css
 .
 ├── main.c
 ├── Readsequences.c
@@ -65,8 +65,7 @@ File Structure
 ├── gapless
 ├── README.md
 └── LICENSE
-
-
+```
 ### License
 
 This project is licensed under the MIT License.
@@ -75,10 +74,12 @@ This project is licensed under the MIT License.
 
 If you use this code in your research, please cite:
 
-Askari Rad, M. et al., "Three-Way Alignment Improves Multiple Sequence Alignment of Highly Diverged Sequences", Algorithms 2024.  https://www.mdpi.com/1999-4893/17/5/205
-Contact
+Askari Rad, M. et al., "Three-Way Alignment Improves Multiple Sequence Alignment of Highly Diverged Sequences", Algorithms 2024.
+https://www.mdpi.com/1999-4893/17/5/205
+
+### Contact
 
 For questions, suggestions, or contributions, please open an issue or contact the maintainer:
 
 Mahbubeh Askarirad
-Email: mahbubeh.askarirad@gmail.com
+Email: Mah.rad3134@gmail.com
