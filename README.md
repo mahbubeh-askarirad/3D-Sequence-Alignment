@@ -23,7 +23,7 @@ To build the program, you will need a C compiler (such as GCC).
 ```bash
 gcc Readsequences.c dynamic_programming.c mmMatrix.c write_sequence.c Alignment_scoring_matrix.c  Triple.c -o Triple
 
-2. Prepare Input
+### 2. Prepare Input
 Prepare a file named input in the project directory, containing your protein sequences in FASTA format. Example:
 
 >seq1
@@ -33,7 +33,7 @@ MKTAYIAKQ-KISFVKSHFSNQDILD--Q
 >seq3
 MKLAYIAKQRQISFVKSHFSNQDILD--Q
 
-3. Run the Program
+### 3. Run the Program
 Run the executable:
 
 ./align3d
@@ -42,7 +42,7 @@ The program will prompt you for:
 Gap opening penalty (GO)
 Gap extension penalty (GE)
 Scoring matrix choice (0: BLOSUM62, 1: BLOSUM30, 2: BLOSUM90)
-4. Output
+### 4. Output
 The aligned sequences and alignment scores will be written to alignment_output.txt.
 A gapless version of the sequences will be written to a file named gapless.
 
@@ -65,11 +65,13 @@ File Structure
 ├── gapless
 ├── README.md
 └── LICENSE
-License
+
+
+### License
 
 This project is licensed under the MIT License.
 
-Citation
+### Citation
 
 If you use this code in your research, please cite:
 
