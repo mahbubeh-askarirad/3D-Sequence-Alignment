@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "alignment_scoring_matrix.h": "c",
+        "lambda_e_estimation.h": "c",
+        "__hash_table": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "readsequences.h": "c"
+    }
+}
